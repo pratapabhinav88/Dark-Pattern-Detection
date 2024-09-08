@@ -1,0 +1,25 @@
+.__ph__pattern-detected {
+    /** background-color: red !important; **/
+    border: 2px solid black; !important;
+    /**background: #0F81A0; **/
+    z-index: 1000 !important;
+    box-shadow: 0 0 10px 10px red;
+    opacity: 0.75;
+}
+
+.__ph__current-pattern {
+    z-index: 10000 !important;
+    box-shadow: 0 0 120px 150px #CCA807;
+    animation: __ph__highlight 5s;
+    opacity: 0;
+}
+
+@keyframes __ph__highlight {
+    from {
+        opacity: 0.75;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

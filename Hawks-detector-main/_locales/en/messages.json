@@ -1,0 +1,176 @@
+{
+  "extName": {
+    "message": "Hawk's Detector",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Detects and highlights different Dark Patterns on websites.",
+    "description": "The description of the extension."
+  },
+  "errorInvalidConfig": {
+    "message": "The internal pattern configuration of the extension is invalid. The Hawks Detector will not start.",
+    "description": "The error message in case of an invalid internal pattern configuration."
+  },
+  "buttonOnState": {
+    "message": "ON",
+    "description": "The message when the switch is turned on in the popup."
+  },
+  "buttonOffState": {
+    "message": "OFF",
+    "description": "The message when the switch is turned off in the popup."
+  },
+  "buttonReloadPageForChange": {
+    "message": "Reload Page To Apply Changes",
+    "description": "Text for the button to reload the page after a changed activation state."
+  },
+  "buttonRedoPatternCheck": {
+    "message": "Repeat Dark Pattern Highlighting",
+    "description": "Text for the button to repeat the pattern highlighting on the page."
+  },
+  "headingShowPattern": {
+    "message": "Show Patterns",
+    "description": "Heading in the popup for the buttons to show individual pattern elements."
+  },
+  "headingFoundPatterns": {
+    "message": "Total Patterns Found",
+    "description": "Heading in the popup for the list of found patterns."
+  },
+  "headingSupportedPatterns": {
+    "message": "Supported Pattern Types",
+    "description": "Heading in the popup for the list of supported patterns."
+  },
+  "textMoreInformation": {
+    "message": "More information about Dark Patterns",
+    "description": "Text in the footer preceding the link to the Github website."
+  },
+  "infoExtensionStarted": {
+    "message": "Hawks Detector started.",
+    "description": "Message in the console when the Hawks Detector was started on a page."
+  },
+  "infoExtensionDisabled": {
+    "message": "Hawks Detector is disabled for this tab.",
+    "description": "Message in the console when the Hawks Detector is disabled in a tab."
+  },
+  "infoNumberPatternsFound": {
+    "message": "$COUNT$ pattern(s) detected.",
+    "description": "Message in the console about how many patterns were detected.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "patternCountdown_name": {
+    "message": "Countdown",
+    "description": "Name of the countdown pattern."
+  },
+  "patternCountdown_w": {
+    "message": "Beware of false urgency tactics. Take your time; true deals don't expire in seconds.",
+    "description": "Name of the countdown pattern."
+  },
+  "patternCountdown_infoUrl": {
+    "message": "https://github.com/NEWTONSGAMINGYT/Hawks-detector",
+    "description": "URL to the explanation of the countdown pattern on the Github website."
+  },
+  "patternCountdown_info": {
+    "message": "Countdown patterns induce (truthfully or falsely) the impression that a product or service is only available for a certain period of time. This is illustrated through a running clock or a lapsing bar. You can watch as the desired good slips away.",
+    "description": "Brief explanation of the countdown Pattern."
+  },
+  "patternScarcity_name": {
+    "message": "Scarcity",
+    "description": "Name of the scarcity pattern."
+  },
+  "patternScarcity_w": {
+    "message": "Caution! False scarcity may pressure you into unnecessary purchases. Evaluate your needs.",
+    "description": "Name of the scarcity pattern."
+  },
+  "patternScarcity_infoUrl": {
+    "message": "https://github.com/NEWTONSGAMINGYT/Hawks-detector",
+    "description": "URL to the explanation of the scarcity pattern on the Github website."
+  },
+  "patternScarcity_info": {
+    "message": "The Scarcity Pattern induces (truthfully or falsely) the impression that goods or services are only available in limited numbers. Scarcity Patterns are also used in versions where the alleged scarcity is simply invented or where it is not made clear whether the limited availability relates to the product as a whole or only to the contingent of the portal visited.",
+    "description": "Brief explanation of the scarcity Pattern."
+  },
+  "patternSocialProof_name": {
+    "message": "Social Proof",
+    "description": "Name of the social proof pattern."
+  },
+  "patternSocialProof_w": {
+    "message": "Watch out for manipulated social proof. Not all recommendations are genuine.",
+    "description": "Name of the social proof pattern."
+  },
+  "patternSocialProof_infoUrl": {
+    "message": "https://github.com/NEWTONSGAMINGYT/Hawks-detector",
+    "description": "URL to the explanation of the social proof pattern on the Github website."
+  },
+  "patternSocialProof_info": {
+    "message": "Social Proof is another Dark Pattern of this category. Positive product reviews or activity reports from other users are displayed directly. Often, these reviews or reports are simply made up. But authentic reviews or reports also influence the purchase decision through smart selection and placement.",
+    "description": "Brief explanation of the social proof Pattern."
+  },
+  "patternForcedContinuity_name": {
+    "message": "Forced Continuity",
+    "description": "Name of the forced continuity pattern."
+  },
+  "patternForcedContinuity_w": {
+    "message": "Stay alert! Automatic subscriptions can lock you into unwanted payments.",
+    "description": "Name of the forced continuity pattern."
+  },
+  "patternForcedContinuity_infoUrl": {
+    "message": "https://github.com/NEWTONSGAMINGYT/Hawks-detector",
+    "description": "URL to the explanation of the forced continuity pattern on the Github website."
+  },
+  "patternForcedContinuity_info": {
+    "message": "The Forced Continuity pattern automatically renews free or low-cost trial subscriptions - but for a fee or at a higher price. The design trick is that the order form visually suggests that there is no charge and conceals the (automatic) follow-up costs.",
+    "description": "Brief explanation of the forced continuity Pattern."
+  },
+
+  "patternDisguisedAds_name": {
+    "message": "Disguised Ads",
+    "description": "Name of the forced continuity pattern."
+  },
+  "patternDisguisedAds_w": {
+    "message": "Don't be tricked! Content may serve hidden agendas rather than your interests.",
+    "description": "Name of the forced continuity pattern."
+  },
+  "patternConfirmShaming_name": {
+    "message": "ConfirmShaming",
+    "description": "Name of the forced continuity pattern."
+  },
+  "patternConfirmShaming_w": {
+    "message": "Don't be manipulated! Reject guilt-inducing tactics aimed at coercing decisions.",
+    "description": "Name of the forced continuity pattern."
+  },
+  "patternHiddenCost_name": {
+    "message": "Hidden Cost",
+    "description": "Name of the forced continuity pattern."
+  },
+  "patternHiddenCost_w": {
+    "message": "Beware of hidden fees! What seems cheap upfront may cost you dearly later.",
+    "description": "Name of the forced continuity pattern."
+  },
+  "patternMisdirection_name": {
+    "message": "Misdirection",
+    "description": "Name of the forced continuity pattern."
+  },
+  "patternMisdirection_w": {
+    "message": "Stay focused! Misdirection tactics aim to distract you from the truth.",
+    "description": "Name of the forced continuity pattern."
+  },
+
+  "showPatternState": {
+    "message": "$CURRENT$ of $TOTAL$",
+    "description": "Display the number of the current pattern in the popup for the 'Show patterns' function.",
+    "placeholders": {
+      "current": {
+        "content": "$1",
+        "example": "1"
+      },
+      "total": {
+        "content": "$2",
+        "example": "4"
+      }
+    }
+  }
+}

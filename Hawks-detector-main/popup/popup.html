@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            width: 400px;
+            height: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            font-size: 0.85em;
+            background-color: #455A64;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                color: white;
+                background: rgb(27, 27, 35);
+            }
+        }
+
+    </style>
+    <script type="module" src="popup.js"></script>
+</head>
+
+<body>
+    <div style="border: 5px solid #ba3e01;">
+        <div align="right"><button style="padding-inline: 0.5rem; padding-block: 0.2rem; color: white; font-weight: bolder; background-color: #2e2e2e; border-radius: 30%;" id="closeButton">X</button></div>
+        <img src="../images/icon-128.png">
+    <extension-popup></extension-popup>
+    </div>
+</body>
+
+</html>
